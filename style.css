@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+:root {
+    --blue: blue;
+    --red: red;
+}
+
+
+/*---------------------index page starting---------------------*/
+
+header {
+    border-style: groove;
+    border-color: rgb(47, 47, 255);
+    border-radius: 5px;
+    font-weight: bolder;
+    text-align: center;
+    word-spacing: 50px;
+    background-image: linear-gradient(rgb(158, 158, 158), rgb(68, 68, 68));
+    margin: auto;
+    text-decoration: none aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.menu {
+    text-decoration: none;
+    color: var(--blue);
+    text-shadow: 1px 2px 5px silver;
+    font-size: 1.25em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu:hover {
+    color: var(--red);
+    text-shadow: 1px 2px 5px var(--red);
+}
+
+.index-body {
+    background-image: linear-gradient(rgb(189, 178, 178), rgb(105, 102, 102));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.right-section {
+    border-style: groove;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: rgb(214, 214, 233);
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: 5px;
+}
+
+.left-section {
+    border-style: groove;
+    margin-top: 50px;
+    padding-bottom: 28px;
+    margin-left: 100px;
+    background-image: linear-gradient(rgb(158, 158, 158), rgb(68, 68, 68));
+    float: left;
+    position: relative;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.content-heading {
+    text-align: center;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.info-table tr td {
+    font-size: 1.25vw;
+    padding: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgb(15, 2, 2);
+    text-shadow: 1px 2px 2px rgb(136, 136, 133);
+}
+
+.info-table tr td:hover {
+    transform: scale(1.05);
+    color: rgb(9, 255, 0);
+    text-shadow: 3px 2px 3px rgb(136, 136, 133);
+}
+
+
+/*---------------------index page endgin---------------------*/
+
+
+/*---------------------personel page starting---------------------*/
+
+.personel-body {
+    background-image: linear-gradient(rgb(189, 178, 178), rgb(105, 102, 102));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table tr td {
+    letter-spacing: 3px;
+}
+
+.leftSide {
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+    padding-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-shadow: 1px 1px 10px blue;
+}
+
+.RightSide {
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+    text-shadow: 1px 1px 10px blue;
+}
+
+.linkedin {
+    text-decoration: none;
+    text-shadow: 1px 1px 10px red;
+}
+
+.linkedin-png {
+    vertical-align: top;
+    padding-left: 10px;
+    max-width: 7%;
+    max-height: 7%;
+}
+
+
+/*---------------------personel page ending---------------------*/
+
+
+/*---------------------skills page starting---------------------*/
+
+.skills-body {
+    background-image: linear-gradient(rgb(189, 178, 178), rgb(105, 102, 102));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.skills-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.skills-li {
+    list-style: none;
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.skills-li:hover {
+    color: #0400ff;
+    transform: scale(1.02);
+}
+
+.bar {
+    background: #0db49eb9;
+    display: block;
+    height: 5px;
+    border: 1px solid rgba(9, 219, 209, 0.788);
+    border-radius: 3;
+    overflow: hidden;
+    margin-right: 100px;
+    box-shadow: 1px 1px 10px #00ff;
+}
+
+.bar span {
+    height: 10px;
+    float: left;
+    background: #00ffff;
+    box-shadow: 0 0 15px #76bdff;
+}
+
+
+/*---------------------skills page ending---------------------*/
+
+
+/*---------------------academic page starting---------------------*/
+
+.academic-body {
+    background-image: linear-gradient(rgb(189, 178, 178), rgb(105, 102, 102));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.academic-table {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px 10px solid black;
+    box-shadow: 1px 1px 25px #87a7e4;
+}
+
+.academic-table tr th {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    background-image: linear-gradient(rgb(182, 142, 142), rgb(172, 236, 172));
+}
+
+.academic-table tr td {
+    border: 1px solid black;
+    background-image: linear-gradient(rgb(214, 202, 202), rgb(218, 255, 218));
+}
+
+
+/*---------------------academic page ending---------------------*/
